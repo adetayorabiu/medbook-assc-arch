@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w6Cjf2PrAmU=",
+  "success": true,
+  "projectFilePath": "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking/MedBook.Booking.csproj",
+  "expectedPackageFiles": [
+    "/Users/adetayo.rabiu/.nuget/packages/microsoft.netcore.app.ref/8.0.28/microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "/Users/adetayo.rabiu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.28/microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

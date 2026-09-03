@@ -1,0 +1,111 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0": {
+      "MedBook.Booking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MedBook.Booking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedBook.Booking.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MedBook.Booking/1.0.0": {
+      "type": "project",
+      "path": "../MedBook.Booking/MedBook.Booking.csproj",
+      "msbuildProject": "../MedBook.Booking/MedBook.Booking.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MedBook.Booking >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/adetayo.rabiu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking.Tests/MedBook.Booking.Tests.csproj",
+      "projectName": "MedBook.Booking.Tests",
+      "projectPath": "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking.Tests/MedBook.Booking.Tests.csproj",
+      "packagesPath": "/Users/adetayo.rabiu/.nuget/packages/",
+      "outputPath": "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking.Tests/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/adetayo.rabiu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking/MedBook.Booking.csproj": {
+              "projectPath": "/Users/adetayo.rabiu/Library/CloudStorage/OneDrive-phreesia.com/1D - Documents/Interviews/ASS.ARCHITECT Interview/medbook-assoc-arch-exercise/csharp/MedBook.Booking/MedBook.Booking.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "framework": "net8.0",
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.28, 8.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.28, 8.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.28, 8.0.28]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
