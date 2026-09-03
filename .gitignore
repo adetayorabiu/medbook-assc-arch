@@ -1,0 +1,11 @@
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS metadata
+.DS_Store
